@@ -1,7 +1,21 @@
+body > header {
+    background-color: dodgerblue;
+    color: white;
+
+}
+
+nav > ul> li > a {
+    color: white;
+}
 body > footer > p {
     padding: 16px;
     color: white;
     text-align: center;
+}
+
+nav > ul {
+    list-style: none;
+
 }
 
 body > footer {
@@ -10,4 +24,9 @@ body > footer {
 
 body {
     margin: 0;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto;
 }
